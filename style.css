@@ -3,17 +3,6 @@ body {
     margin: 0;
 }
 
-.flexible-area {
-    display: flex;
-    margin-bottom: 200px;
-}
-
-.top-area {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
 h1 {
     font-size: 50px;
 }
@@ -26,10 +15,21 @@ h2 {
     color: orange;
 }
 
+.flexible-area {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.top-area {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 7%;
+}
+
+
 .half-width {
     width: 50%;
     padding-left: 5%;
-    padding-right: 3%;
 }
 
 .half-width img {
@@ -46,30 +46,31 @@ h2 {
 }
 
 .dream-area {
-    padding-top: 15%;
+    padding-right: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .experience-area {
-    padding-top: 15%;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 15%;
 }
 
 .experience-item {
     box-shadow: 10px 10px 100px gray;
     width: 40%;
-    padding: 40px 40px;
+    padding: 20px 40px;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 10px;
 }
 
 #box-one {
     border-left: 10px solid;
-    border-image: linear-gradient(orange, tomato) 27;
+    border-image: linear-gradient(salmon, tomato) 27;
     border-image-slice: 1;
 }
 

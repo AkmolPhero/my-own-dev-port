@@ -5,6 +5,7 @@ body {
 
 .flexible-area {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .top-area {
@@ -58,22 +59,24 @@ h2 {
     background-position: left;
 }
 
+.experience-item {
+    box-shadow: 10px 10px 100px gray;
+    width: 40%;
+    padding: 40px 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #box-one {
     border-left: 10px solid;
     border-image: linear-gradient(orange, tomato) 27;
-    box-shadow: 10px 20px 40px;
-    padding: 10px 50px;
-    margin: 5%;
-    width: 50%;
+    border-image-slice: 1;
 }
 
 #box-two {
     border-left: 10px solid;
     border-image: linear-gradient(blue, cyan) 27;
-    box-shadow: 10px 20px 40px;
-    padding: 10px 50px;
-    margin: 5%;
-    width: 50%;
+    border-image-slice: 1;
 }
 
 footer p {
